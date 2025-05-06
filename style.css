@@ -66,8 +66,12 @@ body {
     margin-top: 15px;
     text-decoration: none;
     color: white;
-    border: solid black 0.2px;
+    border: solid pink 0.2px;
     border-radius: 30%;
+}
+
+.menu-wrap {
+    display: flex;
 }
 @media only screen and (max-width: 600px) {
     .items {
