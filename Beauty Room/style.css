@@ -1,0 +1,85 @@
+
+li {
+    font-size:  18px;
+}
+
+.naslov {
+    color:white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 90px;
+    font-family: "Libre Baskerville", serif;
+}
+
+body {
+    background-image: url(./assets/bg4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: pink;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wraper {
+    height: auto;
+    width: 600px;
+    background-color: rgba(255, 2500, 255, 0.7);
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.cenovnik {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: palevioletred;
+    border-bottom: solid palevioletred 1px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 70px;
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0px;
+    padding-bottom: 15px;
+}
+
+.cena{
+    list-style: none;
+    text-align: right;
+}
+
+.stavke {
+    text-align: left;
+}
+
+.insta {
+    margin-top: 15px;
+    text-decoration: none;
+    color: white;
+    border: solid pink 0.2px;
+    border-radius: 30%;
+}
+
+.menu-wrap {
+    display: flex;
+}
+@media only screen and (max-width: 600px) {
+    .items {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 0px;
+        padding-bottom: 15px;
+    }
+}
